@@ -7,19 +7,19 @@ const testimonials = [
     name: "Rajesh Kumar",
     position: "CEO, Bharat Engineering",
     feedback: "Phoenix Engineering Industries provides top-notch precision tools. Their quality and service are unmatched!",
-    image: "../../assets/testimonial1.jpg"
+    
   },
   {
     name: "Priya Sharma",
     position: "Production Manager, Zenith Manufacturing",
     feedback: "Their expertise in manufacturing has helped us improve our production process significantly.",
-    image: "../../assets/testimonial2.jpg"
+    
   },
   {
     name: "Amit Verma",
     position: "Head of Engineering, TechnoFab",
     feedback: "Highly professional team delivering exceptional solutions with great attention to detail.",
-    image: "../../assets/testimonial3.jpg"
+    
   }
 ];
 
