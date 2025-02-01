@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/phoenixenin/static/css/main.23db5fbe.css",
-    "main.js": "/phoenixenin/static/js/main.e8ad1a10.js",
-    "static/media/telecommunication.jpg": "/phoenixenin/static/media/telecommunication.aa9673779784a41ae279.jpg",
-    "static/media/aerospace.jpg": "/phoenixenin/static/media/aerospace.7c8b23e785fc79d4981b.jpg",
-    "static/media/electronics.jpg": "/phoenixenin/static/media/electronics.f4d2ead8ee2acdc03b28.jpg",
-    "static/media/fmcg.jpg": "/phoenixenin/static/media/fmcg.9311868546dcb6a7ede4.jpg",
-    "static/media/medical.jpg": "/phoenixenin/static/media/medical.c7f20011c0cfccaeecab.jpg",
-    "static/media/energy.jpg": "/phoenixenin/static/media/energy.c494235d891545bf2b14.jpg",
-    "static/media/construction.jpg": "/phoenixenin/static/media/construction.3741b8b4f5720647dc57.jpg",
-    "static/media/fixtures_cnc.png": "/phoenixenin/static/media/fixtures_cnc.464601da058246fa3604.png",
-    "static/media/defense.jpg": "/phoenixenin/static/media/defense.899b111317e96247c6de.jpg",
-    "static/media/automotive.jpg": "/phoenixenin/static/media/automotive.121dd9c6ab3762d26ac7.jpg",
-    "static/media/automation_solutions.png": "/phoenixenin/static/media/automation_solutions.e516ec5208ee3a816796.png",
-    "static/media/gauges_manufacturing.png": "/phoenixenin/static/media/gauges_manufacturing.67b5c65cffc6811bc03d.png",
-    "static/media/machined_parts.png": "/phoenixenin/static/media/machined_parts.f710342189e070420ebc.png",
-    "static/media/gauge 4.jpg": "/phoenixenin/static/media/gauge 4.fed42943871e5940bc80.jpg",
-    "static/media/gauge 2.jpg": "/phoenixenin/static/media/gauge 2.a29ee008bc3f3e9c194f.jpg",
-    "index.html": "/phoenixenin/index.html",
-    "main.23db5fbe.css.map": "/phoenixenin/static/css/main.23db5fbe.css.map",
-    "main.e8ad1a10.js.map": "/phoenixenin/static/js/main.e8ad1a10.js.map"
+    "main.css": "/static/css/main.23db5fbe.css",
+    "main.js": "/static/js/main.7b187c5d.js",
+    "static/media/telecommunication.jpg": "/static/media/telecommunication.aa9673779784a41ae279.jpg",
+    "static/media/aerospace.jpg": "/static/media/aerospace.7c8b23e785fc79d4981b.jpg",
+    "static/media/electronics.jpg": "/static/media/electronics.f4d2ead8ee2acdc03b28.jpg",
+    "static/media/fmcg.jpg": "/static/media/fmcg.9311868546dcb6a7ede4.jpg",
+    "static/media/medical.jpg": "/static/media/medical.c7f20011c0cfccaeecab.jpg",
+    "static/media/energy.jpg": "/static/media/energy.c494235d891545bf2b14.jpg",
+    "static/media/construction.jpg": "/static/media/construction.3741b8b4f5720647dc57.jpg",
+    "static/media/fixtures_cnc.png": "/static/media/fixtures_cnc.464601da058246fa3604.png",
+    "static/media/defense.jpg": "/static/media/defense.899b111317e96247c6de.jpg",
+    "static/media/automotive.jpg": "/static/media/automotive.121dd9c6ab3762d26ac7.jpg",
+    "static/media/automation_solutions.png": "/static/media/automation_solutions.e516ec5208ee3a816796.png",
+    "static/media/gauges_manufacturing.png": "/static/media/gauges_manufacturing.67b5c65cffc6811bc03d.png",
+    "static/media/machined_parts.png": "/static/media/machined_parts.f710342189e070420ebc.png",
+    "static/media/gauge 4.jpg": "/static/media/gauge 4.fed42943871e5940bc80.jpg",
+    "static/media/gauge 2.jpg": "/static/media/gauge 2.a29ee008bc3f3e9c194f.jpg",
+    "index.html": "/index.html",
+    "main.23db5fbe.css.map": "/static/css/main.23db5fbe.css.map",
+    "main.7b187c5d.js.map": "/static/js/main.7b187c5d.js.map"
   },
   "entrypoints": [
     "static/css/main.23db5fbe.css",
-    "static/js/main.e8ad1a10.js"
+    "static/js/main.7b187c5d.js"
   ]
 }
