@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23db5fbe.css",
-    "main.js": "/static/js/main.7b187c5d.js",
+    "main.js": "/static/js/main.27b31c80.js",
     "static/media/telecommunication.jpg": "/static/media/telecommunication.aa9673779784a41ae279.jpg",
     "static/media/aerospace.jpg": "/static/media/aerospace.7c8b23e785fc79d4981b.jpg",
     "static/media/electronics.jpg": "/static/media/electronics.f4d2ead8ee2acdc03b28.jpg",
@@ -19,10 +19,10 @@
     "static/media/gauge 2.jpg": "/static/media/gauge 2.a29ee008bc3f3e9c194f.jpg",
     "index.html": "/index.html",
     "main.23db5fbe.css.map": "/static/css/main.23db5fbe.css.map",
-    "main.7b187c5d.js.map": "/static/js/main.7b187c5d.js.map"
+    "main.27b31c80.js.map": "/static/js/main.27b31c80.js.map"
   },
   "entrypoints": [
     "static/css/main.23db5fbe.css",
-    "static/js/main.7b187c5d.js"
+    "static/js/main.27b31c80.js"
   ]
 }
