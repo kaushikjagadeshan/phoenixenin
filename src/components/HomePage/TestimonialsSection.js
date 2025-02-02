@@ -31,8 +31,7 @@ function TestimonialsSection() {
         <div className="testimonials-container">
           {testimonials.map((testimonial, index) => (
             <div className="testimonial-card" key={index}>
-              <div className="testimonial-header">
-                <img className="testimonial-image" src={testimonial.image} alt={testimonial.name} />
+              <div className="testimonial-header">                
                 <h4 className="testimonial-name">{testimonial.name}</h4>
               </div>
               <p className="testimonial-feedback">"{testimonial.feedback}"</p>
