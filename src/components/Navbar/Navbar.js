@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">

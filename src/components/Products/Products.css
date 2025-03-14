@@ -29,24 +29,32 @@
   
   /* Individual Product Cards */
   .product {
-    width: 200px;
+    width: 200px; /* Keep the card slightly bigger than the image */
+    height: 250px; /* Make sure all product boxes are equal */
     background: #f4f4f4;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
   
   .product:hover {
     transform: scale(1.05);
   }
   
   .product img {
-    width: 100%;
-    height: auto;
+    width: 180px;  /* Set a fixed width */
+    height: 180px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images are cropped to fit without distortion */
     border-radius: 5px;
-  }
+}
+
   
   .product p {
     font-size: 1.1rem;

@@ -26,7 +26,7 @@ const ProductPage = ({ title, image, description }) => {
       <h1>{title}</h1>
       <img src={image} alt={title} className="product-image" />
       <p>{description}</p>
-      <Link to="/products" className="back-button">Back to Products</Link>
+      <Link to="/products" className="back-button"style={{ textDecoration: "none" }}>Back to Products</Link>
     </div>
   );
 };

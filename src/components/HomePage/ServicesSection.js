@@ -1,18 +1,18 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./ServicesSection.css";
-import Gauge1 from "../../assets/automation_solutions.png";
-import Gauge2 from "../../assets/fixtures_cnc.png";
-import Gauge3 from "../../assets/gauge 2.jpg";
+import Gauge1 from "../../assets/plug_gauges.jpg";
+import Gauge2 from "../../assets/Snap_gages.jpg";
+import Gauge3 from "../../assets/air_plug_gauges.jpg";
 import Gauge4 from "../../assets/gauge 4.jpg";
-import Stamping1 from "../../assets/gauges_manufacturing.png";
-import Stamping2 from "../../assets/machined_parts.png";
-import Stamping3 from "../../assets/machined_parts.png";
-import Stamping4 from "../../assets/machined_parts.png";
+import Stamping1 from "../../assets/stamping_tools.jpg";
+import Stamping2 from "../../assets/progressive_tools.jpg";
+import Stamping3 from "../../assets/fine_blanking_tools.jpg";
+import Stamping4 from "../../assets/mould_tools.jpg";
 import Machined1 from "../../assets/machined_parts.png";
-import Machined2 from "../../assets/machined_parts.png";
-import Machined3 from "../../assets/machined_parts.png";
-import Machined4 from "../../assets/machined_parts.png";
+import Machined2 from "../../assets/machined 1.jpg";
+import Machined3 from "../../assets/machined 2.jpg";
+import Machined4 from "../../assets/machined 3.jpg";
 
 function ServicesSection() {
   return (
