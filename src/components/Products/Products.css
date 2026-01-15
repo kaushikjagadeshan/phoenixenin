@@ -38,7 +38,7 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 150px 1fr;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   min-height: 280px;
   width: 100%;
@@ -52,7 +52,7 @@
 
 .product-card img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
