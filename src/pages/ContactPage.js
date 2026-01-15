@@ -1,7 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ContactPage.css";
 
 function ContactPage() {
+  const [status, setStatus] = useState(null);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mykkzpaj", {
+        method: "POST",
+        headers: {
+          Accept: "application/json"
+        },
+        body: formData
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        alert("Thanks! Your message has been sent.");
+        form.reset();
+      } else {
+        setStatus("error");
+        alert("Sorry, something went wrong. Please try again.");
+      }
+    } catch (error) {
+      setStatus("error");
+      alert("Sorry, something went wrong. Please try again.");
+    }
+  };
+
   return (
     <div className="contact-page">
       <section className="page-hero">
@@ -27,24 +57,30 @@ function ContactPage() {
           </div>
           <form
             className="surface-card contact-form"
-            onSubmit={(event) => event.preventDefault()}
+            onSubmit={handleSubmit}
           >
             <h3>Send a message</h3>
             <label>
               Name
-              <input type="text" placeholder="Your name" />
+              <input type="text" name="name" placeholder="Your name" required />
             </label>
             <label>
               Email
-              <input type="email" placeholder="Your email" />
+              <input type="email" name="email" placeholder="Your email" required />
             </label>
             <label>
               Message
-              <textarea rows="4" placeholder="Tell us about your requirements"></textarea>
+              <textarea name="message" rows="4" placeholder="Tell us about your requirements" required></textarea>
             </label>
             <button className="btn btn-primary" type="submit">
               Send Message
             </button>
+            {status === "success" && (
+              <p className="form-status success">Message sent successfully.</p>
+            )}
+            {status === "error" && (
+              <p className="form-status error">Message failed. Try again.</p>
+            )}
           </form>
         </div>
       </section>

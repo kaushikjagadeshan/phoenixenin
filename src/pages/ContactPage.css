@@ -42,6 +42,19 @@
   font-family: inherit;
 }
 
+.form-status {
+  margin-top: 14px;
+  font-weight: 600;
+}
+
+.form-status.success {
+  color: #1f6f78;
+}
+
+.form-status.error {
+  color: #b74e1d;
+}
+
 .map-card iframe {
   width: 100%;
   border: 0;
