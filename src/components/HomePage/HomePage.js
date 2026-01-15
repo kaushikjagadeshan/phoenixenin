@@ -2,7 +2,6 @@
 import React from "react";
 import HeroSection from "./HeroSection";
 import ServicesSection from "./ServicesSection";
-import AboutSection from "./AboutSection";
 import IndustriesSection from "./IndustriesSection";
 import TestimonialsSection from "./TestimonialsSection";
 import ContactSection from "./ContactSection";
@@ -13,7 +12,6 @@ function HomePage() {
     <div className="home-container">
       <HeroSection />
       <ServicesSection />
-      <AboutSection />
       <IndustriesSection />
       <TestimonialsSection />
       <ContactSection />

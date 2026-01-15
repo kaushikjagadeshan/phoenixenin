@@ -1,0 +1,15 @@
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-container .section,
+.home-container .hero {
+  animation: floatUp 0.9s ease both;
+}

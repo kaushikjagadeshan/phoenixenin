@@ -1,0 +1,48 @@
+.about-section {
+  background: var(--sand);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 36px;
+  align-items: center;
+}
+
+.about-copy .section-lead {
+  margin-top: 12px;
+}
+
+.about-highlights {
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+}
+
+.about-highlights .surface-card {
+  padding: 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-highlights h4 {
+  margin: 0 0 6px;
+}
+
+.about-visual img {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+  height: 360px;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.about-highlights .surface-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(22, 34, 45, 0.18);
+}
+
+.about-visual img:hover {
+  transform: scale(1.03);
+}
