@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42ad0734.css",
-    "main.js": "/static/js/main.83ceaf84.js",
+    "main.css": "/static/css/main.38317b02.css",
+    "main.js": "/static/js/main.08e93768.js",
     "static/media/hero-capabilities.png": "/static/media/hero-capabilities.20121850dba5dafc7e67.png",
     "static/media/gauge_master_blocks.jpg": "/static/media/gauge_master_blocks.f4acdf4ef0659dbceeaa.jpg",
     "static/media/telecommunication.jpg": "/static/media/telecommunication.aa9673779784a41ae279.jpg",
@@ -25,11 +25,11 @@
     "static/media/aboutus.jpg": "/static/media/aboutus.fceb146a26fd8e0edc09.jpg",
     "static/media/geared_parts.jpg": "/static/media/geared_parts.8b0c429f28c38f4564b9.jpg",
     "index.html": "/index.html",
-    "main.42ad0734.css.map": "/static/css/main.42ad0734.css.map",
-    "main.83ceaf84.js.map": "/static/js/main.83ceaf84.js.map"
+    "main.38317b02.css.map": "/static/css/main.38317b02.css.map",
+    "main.08e93768.js.map": "/static/js/main.08e93768.js.map"
   },
   "entrypoints": [
-    "static/css/main.42ad0734.css",
-    "static/js/main.83ceaf84.js"
+    "static/css/main.38317b02.css",
+    "static/js/main.08e93768.js"
   ]
 }
