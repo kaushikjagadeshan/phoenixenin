@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42ad0734.css",
+    "main.js": "/static/js/main.83ceaf84.js",
+    "static/media/hero-capabilities.png": "/static/media/hero-capabilities.20121850dba5dafc7e67.png",
+    "static/media/gauge_master_blocks.jpg": "/static/media/gauge_master_blocks.f4acdf4ef0659dbceeaa.jpg",
+    "static/media/telecommunication.jpg": "/static/media/telecommunication.aa9673779784a41ae279.jpg",
+    "static/media/aerospace.jpg": "/static/media/aerospace.7c8b23e785fc79d4981b.jpg",
+    "static/media/electronics.jpg": "/static/media/electronics.f4d2ead8ee2acdc03b28.jpg",
+    "static/media/fmcg.jpg": "/static/media/fmcg.9311868546dcb6a7ede4.jpg",
+    "static/media/medical.jpg": "/static/media/medical.c7f20011c0cfccaeecab.jpg",
+    "static/media/energy.jpg": "/static/media/energy.c494235d891545bf2b14.jpg",
+    "static/media/construction.jpg": "/static/media/construction.3741b8b4f5720647dc57.jpg",
+    "static/media/defense.jpg": "/static/media/defense.899b111317e96247c6de.jpg",
+    "static/media/automotive.jpg": "/static/media/automotive.121dd9c6ab3762d26ac7.jpg",
+    "static/media/machined_parts.png": "/static/media/machined_parts.f710342189e070420ebc.png",
+    "static/media/ring_gauges.jpg": "/static/media/ring_gauges.e0234e8dee66bba907f7.jpg",
+    "static/media/custom_gauges.jpg": "/static/media/custom_gauges.fb7d47402bf58069e5ec.jpg",
+    "static/media/plug_gauges.jpg": "/static/media/plug_gauges.cdac4f4319564906fa5f.jpg",
+    "static/media/progressive_tools.jpg": "/static/media/progressive_tools.b26bbea5bf9afaf69530.jpg",
+    "static/media/air_ring_gauges.jpg": "/static/media/air_ring_gauges.e02d792c576b9f00c39f.jpg",
+    "static/media/mould.webp": "/static/media/mould.c3f927136cddb75c4c6f.webp",
+    "static/media/air_plug_gauges.jpg": "/static/media/air_plug_gauges.8bfb3206717293695416.jpg",
+    "static/media/stamping_tools.jpg": "/static/media/stamping_tools.32d399c3b2c0857c969d.jpg",
+    "static/media/aboutus.jpg": "/static/media/aboutus.fceb146a26fd8e0edc09.jpg",
+    "static/media/geared_parts.jpg": "/static/media/geared_parts.8b0c429f28c38f4564b9.jpg",
+    "index.html": "/index.html",
+    "main.42ad0734.css.map": "/static/css/main.42ad0734.css.map",
+    "main.83ceaf84.js.map": "/static/js/main.83ceaf84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42ad0734.css",
+    "static/js/main.83ceaf84.js"
+  ]
+}
