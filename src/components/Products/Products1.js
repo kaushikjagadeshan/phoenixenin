@@ -28,7 +28,8 @@ const categories = [
       { name: "Stamping Tools", image: stampingToolsImg, link: "/products/stamping-tools" },
       { name: "Fine Blanking Tools", image: fineBlankingToolsImg, link: "/products/fine-blanking-tools" },
       { name: "Draw Tools", image: drawToolsImg, link: "/products/draw-tools" },
-      { name: "Progressive Tools", image: progressiveToolsImg, link: "/products/progressive-tools" }
+      { name: "Progressive Tools", image: progressiveToolsImg, link: "/products/progressive-tools" },
+      { name: "Die Sets", image: stampingToolsImg, link: "/diesets" }
     ]
   },
   {
