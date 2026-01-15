@@ -24,7 +24,7 @@ const industries = [
 
 function IndustriesSection() {
   return (
-    <section className="section industries-section">
+    <section className="section industries-section" id="industries">
       <div className="container">
         <p className="eyebrow">Industries</p>
         <h2 className="section-title">Trusted across critical sectors</h2>

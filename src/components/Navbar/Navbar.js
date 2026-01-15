@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import logo from "../../assets/logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,10 @@ function Navbar() {
     <header className="site-header">
       <nav className="nav-bar">
         <NavLink className="brand" to="/" onClick={closeMenu}>
-          Phoenix <span>Engineering</span>
+          <img src={logo} alt="Phoenix Engineering Industries logo" />
+          <span className="brand-text">
+            Phoenix <span>Engineering Industries</span>
+          </span>
         </NavLink>
         <button
           className="nav-toggle"

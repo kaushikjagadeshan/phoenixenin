@@ -22,10 +22,32 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.brand span {
+.brand img {
+  height: 56px;
+  width: auto;
+  display: block;
+  animation: logoFloat 3.5s ease-in-out infinite;
+}
+
+.brand-text span {
   color: var(--accent);
+}
+
+@keyframes logoFloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .nav-links {
