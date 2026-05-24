@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ef26d14.css",
-    "main.js": "/static/js/main.bb6e5355.js",
+    "main.css": "/static/css/main.9fd70f93.css",
+    "main.js": "/static/js/main.0c9ab54c.js",
+    "static/media/bambu_a1_official_print_sample.png": "/static/media/bambu_a1_official_print_sample.241bb0a8db48c1ba5c3b.png",
     "static/media/hero-capabilities.png": "/static/media/hero-capabilities.20121850dba5dafc7e67.png",
     "static/media/gauge_master_blocks.jpg": "/static/media/gauge_master_blocks.f4acdf4ef0659dbceeaa.jpg",
     "static/media/telecommunication.jpg": "/static/media/telecommunication.aa9673779784a41ae279.jpg",
@@ -14,8 +15,9 @@
     "static/media/defense.jpg": "/static/media/defense.899b111317e96247c6de.jpg",
     "static/media/automotive.jpg": "/static/media/automotive.121dd9c6ab3762d26ac7.jpg",
     "static/media/machined_parts.png": "/static/media/machined_parts.f710342189e070420ebc.png",
-    "static/media/bambu_lab_3d_printer.jpg": "/static/media/bambu_lab_3d_printer.41aea53c9dc089d4538a.jpg",
     "static/media/ring_gauges.jpg": "/static/media/ring_gauges.e0234e8dee66bba907f7.jpg",
+    "static/media/bambu_a1_combo_official.jpg": "/static/media/bambu_a1_combo_official.38050926f9998cd5119c.jpg",
+    "static/media/bambu_a1_official_printer.jpg": "/static/media/bambu_a1_official_printer.b143689cd6328744b42a.jpg",
     "static/media/custom_gauges.jpg": "/static/media/custom_gauges.fb7d47402bf58069e5ec.jpg",
     "static/media/logo.png": "/static/media/logo.b69bdd3b1cf45b2eadca.png",
     "static/media/plug_gauges.jpg": "/static/media/plug_gauges.cdac4f4319564906fa5f.jpg",
@@ -27,11 +29,11 @@
     "static/media/aboutus.jpg": "/static/media/aboutus.fceb146a26fd8e0edc09.jpg",
     "static/media/geared_parts.jpg": "/static/media/geared_parts.8b0c429f28c38f4564b9.jpg",
     "index.html": "/index.html",
-    "main.3ef26d14.css.map": "/static/css/main.3ef26d14.css.map",
-    "main.bb6e5355.js.map": "/static/js/main.bb6e5355.js.map"
+    "main.9fd70f93.css.map": "/static/css/main.9fd70f93.css.map",
+    "main.0c9ab54c.js.map": "/static/js/main.0c9ab54c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ef26d14.css",
-    "static/js/main.bb6e5355.js"
+    "static/css/main.9fd70f93.css",
+    "static/js/main.0c9ab54c.js"
   ]
 }

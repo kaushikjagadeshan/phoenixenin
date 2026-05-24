@@ -19,7 +19,7 @@ import cncMachinedPartsImg from "../../assets/cnc_machined_parts.jpg";
 import highPrecisionSparesImg from "../../assets/high_precision_machine_spares.jpg";
 import gearedPartsImg from "../../assets/geared_parts.jpg";
 import customShapedPartsImg from "../../assets/custom_shaped_parts.jpg";
-import threeDPrintingImg from "../../assets/bambu_lab_3d_printer.jpg";
+import threeDPrintingImg from "../../assets/bambu_a1_combo_official.jpg";
 
 const categories = [
   {

@@ -19,9 +19,11 @@ import cncMachinedPartsImg from "../../../assets/cnc_machined_parts.jpg";
 import highPrecisionSparesImg from "../../../assets/high_precision_machine_spares.jpg";
 import gearedPartsImg from "../../../assets/geared_parts.jpg";
 import customShapedPartsImg from "../../../assets/custom_shaped_parts.jpg";
-import threeDPrintingImg from "../../../assets/bambu_lab_3d_printer.jpg";
+import threeDPrintingImg from "../../../assets/bambu_a1_combo_official.jpg";
+import threeDPrinterImg from "../../../assets/bambu_a1_official_printer.jpg";
+import threeDPrintSampleImg from "../../../assets/bambu_a1_official_print_sample.png";
 
-const ProductPage = ({ title, image, description, paragraphs }) => {
+const ProductPage = ({ title, image, description, paragraphs, gallery = [] }) => {
   return (
     <div className="product-detail">
       <h1>{title}</h1>
@@ -30,6 +32,16 @@ const ProductPage = ({ title, image, description, paragraphs }) => {
       {paragraphs.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}
+      {gallery.length > 0 && (
+        <div className="product-gallery">
+          {gallery.map((item) => (
+            <figure key={item.title}>
+              <img src={item.image} alt={item.title} />
+              <figcaption>{item.title}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
       <Link to="/products" className="back-button">Back to Products</Link>
     </div>
   );
@@ -261,6 +273,10 @@ export const ThreeDPrintingServices = () => (
       "Our 3D printing service helps convert ideas into physical parts quickly for validation, fit checks, and presentation samples.",
       "With our Bambu Lab A1 printer, we support practical prototypes, small jigs, fixtures, custom brackets, enclosures, and short-run plastic components.",
       "This service is ideal when you need faster iteration before committing to tooling, machining, or production fixtures."
+    ]}
+    gallery={[
+      { title: "Bambu Lab A1 printer", image: threeDPrinterImg },
+      { title: "Printed product example", image: threeDPrintSampleImg }
     ]}
   />
 );
