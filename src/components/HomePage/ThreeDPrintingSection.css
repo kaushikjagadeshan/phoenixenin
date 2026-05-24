@@ -1,0 +1,72 @@
+.printing-section {
+  background: linear-gradient(120deg, rgba(31, 111, 120, 0.1), rgba(255, 255, 255, 0.82));
+}
+
+.printing-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.printing-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.printing-list li {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  color: var(--muted);
+}
+
+.printing-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.printing-visuals {
+  display: grid;
+  grid-template-columns: 1fr 0.54fr;
+  gap: 16px;
+  align-items: end;
+}
+
+.printing-visuals img {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+.printing-main {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  background: #fff;
+}
+
+.printing-sample {
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .printing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .printing-visuals {
+    grid-template-columns: 1fr;
+  }
+
+  .printing-sample {
+    aspect-ratio: 4 / 3;
+  }
+}

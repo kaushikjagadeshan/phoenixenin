@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fd70f93.css",
-    "main.js": "/static/js/main.0c9ab54c.js",
+    "main.css": "/static/css/main.73e350c2.css",
+    "main.js": "/static/js/main.cb306a1a.js",
     "static/media/bambu_a1_official_print_sample.png": "/static/media/bambu_a1_official_print_sample.241bb0a8db48c1ba5c3b.png",
     "static/media/hero-capabilities.png": "/static/media/hero-capabilities.20121850dba5dafc7e67.png",
     "static/media/gauge_master_blocks.jpg": "/static/media/gauge_master_blocks.f4acdf4ef0659dbceeaa.jpg",
@@ -29,11 +29,11 @@
     "static/media/aboutus.jpg": "/static/media/aboutus.fceb146a26fd8e0edc09.jpg",
     "static/media/geared_parts.jpg": "/static/media/geared_parts.8b0c429f28c38f4564b9.jpg",
     "index.html": "/index.html",
-    "main.9fd70f93.css.map": "/static/css/main.9fd70f93.css.map",
-    "main.0c9ab54c.js.map": "/static/js/main.0c9ab54c.js.map"
+    "main.73e350c2.css.map": "/static/css/main.73e350c2.css.map",
+    "main.cb306a1a.js.map": "/static/js/main.cb306a1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fd70f93.css",
-    "static/js/main.0c9ab54c.js"
+    "static/css/main.73e350c2.css",
+    "static/js/main.cb306a1a.js"
   ]
 }
