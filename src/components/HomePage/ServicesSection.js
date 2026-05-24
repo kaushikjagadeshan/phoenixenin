@@ -3,7 +3,7 @@ import "./ServicesSection.css";
 import Gauge1 from "../../assets/plug_gauges.jpg";
 import Stamping1 from "../../assets/stamping_tools.jpg";
 import Machined1 from "../../assets/machined_parts.png";
-import Printing1 from "../../assets/plastic_components.png";
+import Printing1 from "../../assets/bambu_lab_3d_printer.jpg";
 
 const services = [
   {

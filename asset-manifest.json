@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ef26d14.css",
-    "main.js": "/static/js/main.6dd7d125.js",
+    "main.js": "/static/js/main.bb6e5355.js",
     "static/media/hero-capabilities.png": "/static/media/hero-capabilities.20121850dba5dafc7e67.png",
     "static/media/gauge_master_blocks.jpg": "/static/media/gauge_master_blocks.f4acdf4ef0659dbceeaa.jpg",
     "static/media/telecommunication.jpg": "/static/media/telecommunication.aa9673779784a41ae279.jpg",
@@ -13,8 +13,8 @@
     "static/media/construction.jpg": "/static/media/construction.3741b8b4f5720647dc57.jpg",
     "static/media/defense.jpg": "/static/media/defense.899b111317e96247c6de.jpg",
     "static/media/automotive.jpg": "/static/media/automotive.121dd9c6ab3762d26ac7.jpg",
-    "static/media/plastic_components.png": "/static/media/plastic_components.a0281e08fff2b2773138.png",
     "static/media/machined_parts.png": "/static/media/machined_parts.f710342189e070420ebc.png",
+    "static/media/bambu_lab_3d_printer.jpg": "/static/media/bambu_lab_3d_printer.41aea53c9dc089d4538a.jpg",
     "static/media/ring_gauges.jpg": "/static/media/ring_gauges.e0234e8dee66bba907f7.jpg",
     "static/media/custom_gauges.jpg": "/static/media/custom_gauges.fb7d47402bf58069e5ec.jpg",
     "static/media/logo.png": "/static/media/logo.b69bdd3b1cf45b2eadca.png",
@@ -28,10 +28,10 @@
     "static/media/geared_parts.jpg": "/static/media/geared_parts.8b0c429f28c38f4564b9.jpg",
     "index.html": "/index.html",
     "main.3ef26d14.css.map": "/static/css/main.3ef26d14.css.map",
-    "main.6dd7d125.js.map": "/static/js/main.6dd7d125.js.map"
+    "main.bb6e5355.js.map": "/static/js/main.bb6e5355.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef26d14.css",
-    "static/js/main.6dd7d125.js"
+    "static/js/main.bb6e5355.js"
   ]
 }
