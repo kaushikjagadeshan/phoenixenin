@@ -1,0 +1,30 @@
+.contact-section {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(229, 107, 43, 0.08));
+}
+
+.contact-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(120deg, #fff, #fdf7ef);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-actions {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.contact-actions .btn {
+  width: fit-content;
+  margin-top: 12px;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(22, 34, 45, 0.18);
+}

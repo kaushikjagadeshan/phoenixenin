@@ -1,0 +1,133 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(12px);
+  background: rgba(244, 241, 234, 0.88);
+  border-bottom: 1px solid rgba(28, 36, 43, 0.08);
+}
+
+.nav-bar {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.brand {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img {
+  height: 56px;
+  width: auto;
+  display: block;
+  animation: logoFloat 3.5s ease-in-out infinite;
+}
+
+.brand-text span {
+  color: var(--accent);
+}
+
+@keyframes logoFloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--ink);
+}
+
+.nav-cta {
+  margin-left: 10px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--teal);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 10px 24px rgba(31, 111, 120, 0.25);
+}
+
+.nav-toggle {
+  margin-left: auto;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid rgba(28, 36, 43, 0.15);
+  background: #fff;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.toggle-line {
+  width: 18px;
+  height: 2px;
+  background: var(--ink);
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 4%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    background: var(--card);
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: all 0.2s ease;
+  }
+
+  .nav-links.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .nav-cta {
+    text-align: center;
+  }
+}

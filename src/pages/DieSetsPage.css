@@ -1,0 +1,38 @@
+.diesets-page .page-hero {
+  padding: 120px 0 90px;
+  background: linear-gradient(120deg, rgba(31, 111, 120, 0.14), rgba(229, 107, 43, 0.08));
+}
+
+.diesets-page h1 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  margin: 16px 0;
+}
+
+.diesets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.diesets-card {
+  padding: 24px;
+}
+
+.diesets-card ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.diesets-contact .contact-card {
+  margin-top: 0;
+}
+
+.diesets-page .section:nth-of-type(2) {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.diesets-page .section:nth-of-type(3) {
+  background: rgba(31, 111, 120, 0.06);
+}
