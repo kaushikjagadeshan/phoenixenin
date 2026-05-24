@@ -19,6 +19,7 @@ import cncMachinedPartsImg from "../../../assets/cnc_machined_parts.jpg";
 import highPrecisionSparesImg from "../../../assets/high_precision_machine_spares.jpg";
 import gearedPartsImg from "../../../assets/geared_parts.jpg";
 import customShapedPartsImg from "../../../assets/custom_shaped_parts.jpg";
+import threeDPrintingImg from "../../../assets/plastic_components.png";
 
 const ProductPage = ({ title, image, description, paragraphs }) => {
   return (
@@ -247,6 +248,19 @@ export const CustomShapedParts = () => (
       "We manufacture custom-shaped parts when standard components do not meet design intent.",
       "Our team supports complex shapes, tight tolerances, and application-specific materials.",
       "Each part is built for fit, function, and consistent performance in your assembly."
+    ]}
+  />
+);
+
+export const ThreeDPrintingServices = () => (
+  <ProductPage
+    title="3D Printing Services"
+    image={threeDPrintingImg}
+    description="Bambu Lab A1 3D printing for rapid prototypes and functional parts."
+    paragraphs={[
+      "Our 3D printing service helps convert ideas into physical parts quickly for validation, fit checks, and presentation samples.",
+      "With our Bambu Lab A1 printer, we support practical prototypes, small jigs, fixtures, custom brackets, enclosures, and short-run plastic components.",
+      "This service is ideal when you need faster iteration before committing to tooling, machining, or production fixtures."
     ]}
   />
 );

@@ -13,7 +13,8 @@ import {
   PlugGauges, RingGauges, AirPlugGauges, AirRingGauges,
   GaugeMasterBlocks, CustomGauges, StampingTools, FineBlankingTools,
   DrawTools, ProgressiveTools, MouldTools, WeldingFixtures, AssemblyFixtures,
-  Automation, CNCMachinedParts, HighPrecisionSpares, GearedParts, CustomShapedParts
+  Automation, CNCMachinedParts, HighPrecisionSpares, GearedParts, CustomShapedParts,
+  ThreeDPrintingServices
 } from "./components/Products/items/ProductPages";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route path="/products/high-precision-spares" element={<HighPrecisionSpares />} />
           <Route path="/products/geared-parts" element={<GearedParts />} />
           <Route path="/products/custom-shaped-parts" element={<CustomShapedParts />} />
+          <Route path="/products/3d-printing-services" element={<ThreeDPrintingServices />} />
         </Routes>
       </main>
       <Footer />

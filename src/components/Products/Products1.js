@@ -19,6 +19,7 @@ import cncMachinedPartsImg from "../../assets/cnc_machined_parts.jpg";
 import highPrecisionSparesImg from "../../assets/high_precision_machine_spares.jpg";
 import gearedPartsImg from "../../assets/geared_parts.jpg";
 import customShapedPartsImg from "../../assets/custom_shaped_parts.jpg";
+import threeDPrintingImg from "../../assets/plastic_components.png";
 
 const categories = [
   {
@@ -69,6 +70,13 @@ const categories = [
       { name: "Geared Parts", image: gearedPartsImg, link: "/products/geared-parts" },
       { name: "Custom Shaped Parts", image: customShapedPartsImg, link: "/products/custom-shaped-parts" }
     ]
+  },
+  {
+    title: "3D Printing",
+    description: "Bambu Lab A1 printing for prototypes, fixtures, samples, and small-batch parts.",
+    items: [
+      { name: "3D Printing Services", image: threeDPrintingImg, link: "/products/3d-printing-services" }
+    ]
   }
 ];
 
@@ -78,6 +86,7 @@ const capabilityList = [
   "Waterjet cutting parts",
   "CNC turret punched parts",
   "CNC routed parts",
+  "Bambu Lab A1 3D printing",
   "3D design solutions",
   "Tool design",
   "Prototyping parts",

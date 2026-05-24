@@ -3,6 +3,7 @@ import "./ServicesSection.css";
 import Gauge1 from "../../assets/plug_gauges.jpg";
 import Stamping1 from "../../assets/stamping_tools.jpg";
 import Machined1 from "../../assets/machined_parts.png";
+import Printing1 from "../../assets/plastic_components.png";
 
 const services = [
   {
@@ -22,6 +23,12 @@ const services = [
     description:
       "CNC milled and turned parts with tight tolerances, ready for complex assemblies.",
     image: Machined1
+  },
+  {
+    title: "3D Printing Services",
+    description:
+      "Bambu Lab A1 printing for quick prototypes, jigs, fixtures, and small-batch functional parts.",
+    image: Printing1
   }
 ];
 
